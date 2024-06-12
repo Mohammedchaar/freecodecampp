@@ -1,0 +1,54 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav id="navbar">
+    <a href="#welcome-section">Welcome</a>
+    <a href="#projects">Projects</a>
+  </nav>
+  <section id="welcome-section">
+    <h1>Welcome to My Portfolio</h1>
+  </section>
+  <section id="projects">
+    <div class="project-tile">
+      <a href="project1.html">Project 1</a>
+    </div>
+  </section>
+  <a id="profile-link" href="https://github.com/yourusername" target="_blank">My GitHub Profile</a>
+</body>
+</html>
+
+
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+#welcome-section {
+  height: 100vh;
+}
+
+@media (max-width: 600px) {
+  #navbar {
+    flex-direction: column;
+  }
+}
+
+** end of undefined **
+

@@ -1,0 +1,61 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main id="main">
+       
+        <h1 id="title">Dr. Norman Borlaug</h1>
+        <div 
+       <figure id="img-div">
+    <img id="image" src="https://imgs.search.brave.com/Hw4-sNJ6eo6Kv7pzjUVr9gcsLUMkiEKgwmKeyjZ5rDI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvNTgz/NTAyNTc0L3Bob3Rv/L25vcm1hbi1ib3Js/YXVnLTE5NzAtbm9i/ZWwtcGVhY2UtcHJp/emUuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPTFCazJDRzU0/N25rMldRcDI2SXVq/dmx1V1hvTDROTXBu/NmZ2WjFzU3hFS2s9" alt="Dr. Norman Borlaug">
+    <figcaption id="img-caption">Dr. Norman Borlaug seen standing in Mexican wheat field.</figcaption>
+</figure>
+ 
+            <p id="img-caption">Dr. Norman Borlaug seen standing in Mexican wheat field.</p>
+        </div>
+        <div id="tribute-info">
+            <p>Dr. Norman Borlaug, known as "the father of the Green Revolution", was awarded the Nobel Peace Prize in 1970 for his contributions to world food supply.</p>
+        </div>
+        <div id="img-div">
+    <img id="image" src="image.jpg" alt="Dr. Norman Borlaug">
+    <div id="img-caption">Dr. Norman Borlaug seen standing in Mexican wheat field.</div>
+</div>
+        <a id="tribute-link" href="https://en.wikipedia.org/wiki/Norman_Borlaug" target="_blank">More about Dr. Norman Borlaug</a>
+    </main>
+</body>
+</html>
+
+
+** end of undefined **
+
+** start of undefined **
+
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#image {
+    max-width: 100%;
+    height: auto;
+}
+#title {
+    color: red;
+}
+body {
+    background-color:  #808080; /* This is a light gray color */
+}
+
+** end of undefined **
+
